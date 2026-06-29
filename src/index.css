@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100vh;
+  overflow: auto;
+}
+
+body {
+  background: #1a0533;
+  color: #fff;
+}
+
+canvas {
+  image-rendering: pixelated;
+}
